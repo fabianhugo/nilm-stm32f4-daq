@@ -1,0 +1,102 @@
+Configuration	nilm-stm32f4-daq
+STM32CubeMX 	5.0.1
+Date	08/17/2019
+MCU	STM32F410CBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	Output Compare No Output	TIM1_VS_no_output1	VP_TIM1_VS_no_output1
+TIM1	PWM Generation CH2N	TIM1_CH2N	PB0
+TIM1	PWM Generation CH3N	TIM1_CH3N	PB1
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART1	CTS/RTS	USART1_CTS	PA11
+USART1	CTS/RTS	USART1_RTS	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+11	PA1	GPIO_Output	LED2
+12	PA2	GPIO_Input	SEL_MICRO
+15	PA5	SPI1_SCK	
+16	PA6	SPI1_MISO	
+17	PA7	SPI1_MOSI	
+18	PB0	TIM1_CH2N	
+19	PB1	TIM1_CH3N	
+25	PB12	GPIO_Output	MCLR_WF
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	USART1_CTS	
+33	PA12	USART1_RTS	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	GPIO_Output	PROG-PIN
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SPI1	Full-Duplex Master	SPI1_MISO	PA6
+SPI1	Full-Duplex Master	SPI1_MOSI	PA7
+SPI1	Full-Duplex Master	SPI1_SCK	PA5
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+TIM1	Internal Clock	TIM1_VS_ClockSourceINT	VP_TIM1_VS_ClockSourceINT
+TIM1	Output Compare No Output	TIM1_VS_no_output1	VP_TIM1_VS_no_output1
+TIM1	PWM Generation CH2N	TIM1_CH2N	PB0
+TIM1	PWM Generation CH3N	TIM1_CH3N	PB1
+USART1	Asynchronous	USART1_RX	PA10
+USART1	Asynchronous	USART1_TX	PA9
+USART1	CTS/RTS	USART1_CTS	PA11
+USART1	CTS/RTS	USART1_RTS	PA12
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+11	PA1	GPIO_Output	LED2
+12	PA2	GPIO_Input	SEL_MICRO
+15	PA5	SPI1_SCK	
+16	PA6	SPI1_MISO	
+17	PA7	SPI1_MOSI	
+18	PB0	TIM1_CH2N	
+19	PB1	TIM1_CH3N	
+25	PB12	GPIO_Output	MCLR_WF
+30	PA9	USART1_TX	
+31	PA10	USART1_RX	
+32	PA11	USART1_CTS	
+33	PA12	USART1_RTS	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+39	PB3	GPIO_Output	PROG-PIN
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : nilm-stm32f4-daq
+Project Folder : /home/burr/nilm-stm32f4-daq
+Toolchain / IDE : SW4STM32
+Firmware Package Name and Version : STM32Cube FW_F4 V1.23.0
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : Yes
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
